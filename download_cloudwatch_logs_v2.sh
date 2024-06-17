@@ -10,10 +10,10 @@ echo "Enter a log group name"
 read log_group_name
 
 # Define start and end time range
-echo "Enter the start time in yyyy-mm-dd HH:MM:SS"
+echo "Enter the start time in yyyy-mm-dd HH:MM:SS format"
 read start_time
 
-echo "Enter end time in yyyy-mm-dd HH:MM:SS format" 
+echo "Enter the end time in yyyy-mm-dd HH:MM:SS format" 
 read end_time
 
 # convert to epoch time in milliseconds
